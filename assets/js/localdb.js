@@ -3,6 +3,10 @@
 class LocalDB {
 	constructor(collection) {
 		this.collection = collection;
+
+		if (localStorage.getItem(this.collection)) {
+			localStorage.setItem(this.collection, JSON.stringify([]));
+		}
 	}
 
 	find(where = null) {
