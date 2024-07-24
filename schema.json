@@ -1,0 +1,13 @@
+{
+	"notes": {
+		[
+			{
+				"id": 0,
+				"judul": "Lipsum",
+				"isi": "Lorem Ipsum",
+				"createdAt": "Y-m-d H:i:s",
+				"updatedAt": "Y-m-d H:i:s"
+			},
+		]
+	}
+}
